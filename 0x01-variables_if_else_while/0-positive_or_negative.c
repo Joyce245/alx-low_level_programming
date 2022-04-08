@@ -6,8 +6,8 @@
  * 
  * *Return:Always 0 (success/correct)
  *
-*/ 
-  int main(void) 
+*/
+int main(void)
 {
 int n;
 
@@ -27,3 +27,4 @@ int n;
 		printf("%d is negative", n);
 	}
 	return (0);
+}
