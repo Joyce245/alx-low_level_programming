@@ -20,11 +20,11 @@ int n;
 	}
 	else if (n > 0)
 	{
-		printf("%d is positive ",  n);
+		printf(" %d is positive",  n);
 	}
 	else
 	{
-		printf("%d is negative ",  n);
+		printf("%d is negativ ",  n);
 	}
 	return (0);
 }
