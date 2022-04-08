@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * *main - Entry point
+ * main - Entry point
  * 
- * *Return: Always 0 (success/correct)
+ * Return: Always 0 (success/correct)
  *
 */
 int main(void)
@@ -16,15 +16,15 @@ int n;
 
 	if (n == 0)
 	{
-		printf("%d is zero" , n);
+		printf("%d is zero",  n);
 	}
 	else if (n > 0)
 	{
-		printf("%d is positive" , n);
+		printf("%d is positive",  n);
 	}
 	else
 	{
-		printf("%d is negative" , n);
+		printf("%d is negative",  n);
 	}
 	return (0);
 }
