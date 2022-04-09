@@ -16,7 +16,7 @@ while (b <= 57)
 c = 48;
 while (c <= 57)
 {
-if (((a != b) && (b != c)) && ((a < b) && (b < c)))
+if (((a != b)&&(b != c))&&((a < b)&&(b < c)))
 {
 putchar(a);
 putchar(b);
