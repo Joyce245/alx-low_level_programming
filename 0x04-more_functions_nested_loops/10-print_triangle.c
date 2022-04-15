@@ -4,7 +4,7 @@
  * print_triangle - print triangle of #
  *
  * @size: triangle size
- */
+*/
 void print_triangle(int size)
 {
 int i, j;
