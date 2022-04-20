@@ -1,19 +1,31 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - check the code for
+ * print_array - prints n elements of an array.
  *
- * Return: Always 0.
+ * @a: array reference
+ * @n: parameter
  */
-int main(void)
-{
-    int array[5];
 
-    array[0] = 98;
-    array[1] = 402;
-    array[2] = -198;
-    array[3] = 298;
-    array[4] = -1024;
-    print_array(array, 5);
-    return (0);
+
+void print_array(int *a, int n)
+{
+int i;
+
+i = 0;
+while (i < n)
+{
+if (i == n - 1)
+{
+printf("%d\n", a[i]);
+break;
+}
+printf("%d, ", a[i]);
+i++;
+}
+if (n <= i)
+{
+_putchar('\n');
+}
 }
