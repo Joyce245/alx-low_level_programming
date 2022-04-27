@@ -1,2 +1,2 @@
 # alx-low_level_programming
-My first repository using C programming language 
+My first repository using the C programming language 
