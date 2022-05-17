@@ -10,8 +10,7 @@
  * Return: sum of arguments
  */
 
-int sum_them_all(const unsigned int n, ...)
-{
+int sum_them_all(const unsigned int n, ...){
 va_list ap;
 unsigned int i, sum = 0;
 
