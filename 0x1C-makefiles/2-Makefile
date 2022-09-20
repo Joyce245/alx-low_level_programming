@@ -4,4 +4,4 @@ OBJ = $(patsubst %.c,%.o, $(SRC))
 NAME = school 
 
 all: ${SRC}
-	${CC} ${OBJ} -o school
+	${CC} ${OBJ} -o ${NAME}
