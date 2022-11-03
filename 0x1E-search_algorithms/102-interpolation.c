@@ -1,4 +1,3 @@
-Bytes
 #include "search_algos.h"
 
 /**
